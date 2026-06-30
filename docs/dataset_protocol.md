@@ -10,8 +10,8 @@ on the SOTS-Indoor test or validation protocol used in the paper.
 
 ## Haze4K
 
-Haze4K is used for synthetic-to-real dehazing evaluation. The standard PHFD-Net
-row reports the matched or scratch Haze4K setting. The PHFD-Net-FT row reports
+Haze4K is used for synthetic dehazing evaluation. The standard PHFD-Net row
+reports the matched or scratch Haze4K setting. The PHFD-Net-FT row reports
 target-domain fine-tuning initialized from the SOTS-Indoor checkpoint.
 
 ## SOTS-Outdoor
@@ -19,6 +19,8 @@ target-domain fine-tuning initialized from the SOTS-Indoor checkpoint.
 SOTS-Outdoor is used for outdoor dehazing evaluation under the outdoor RESIDE
 protocol. Outdoor results are reported separately from indoor and Haze4K results
 because data generation, haze density, and image compression properties differ.
+The matched SOTS-Outdoor number follows the Pillow832-compatible JPEG decoding
+protocol used for the paper table.
 
 ## Protocol Types
 
