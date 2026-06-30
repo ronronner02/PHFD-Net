@@ -17,8 +17,8 @@ PSNR / SSIM are reported for each benchmark.
 | SAD-Net | - | 41.71 / 0.993 | - | 37.78 / 0.990 |
 | WDMamba | - | - | 35.88 / 0.991 | - |
 | SEMN | - | 41.46 / 0.995 | - | 37.60 / 0.991 |
-| PHFD-Net | 4.744 | 42.35 / 0.995 | 34.94 / 0.990 | 36.58 / 0.990 |
-| PHFD-Net-FT | 4.744 | - | 38.537 / 0.99371 | 38.364 / 0.99095 |
+| PHFD-Net | 4.744 | 42.36 / 0.995 | 34.95 / 0.990 | 36.58 / 0.990 |
+| PHFD-Net-FT | 4.744 | - | 38.54 / 0.994 | 38.36 / 0.991 |
 
 PHFD-Net denotes the standard matched/scratch setting.
 PHFD-Net-FT denotes target-domain fine-tuning initialized from the SOTS-Indoor checkpoint.
