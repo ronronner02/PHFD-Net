@@ -13,5 +13,4 @@ without paired ground truth are not used for PSNR or SSIM comparison.
 SOTS-Outdoor evaluation can be sensitive to JPEG decoding and image-loading
 details because the hazy inputs are JPEG images. The reported matched
 SOTS-Outdoor PHFD-Net result uses the Pillow832-compatible protocol
-(`36.58 / 0.990`). Evaluating the same checkpoint under newer Pillow decoders can
-produce a different value and should be reported as a separate environment.
+(`36.58 / 0.990`). 
