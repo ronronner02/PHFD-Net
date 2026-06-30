@@ -1,0 +1,62 @@
+# Source code and notebooks are not released before publication.
+*.py
+*.ipynb
+
+# Model weights and deploy artifacts.
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.engine
+*.pkl
+
+# Private configs, structured experiment data, logs, and raw arrays.
+*.yaml
+*.yml
+*.json
+*.log
+*.txt
+*.csv
+*.npy
+*.npz
+
+# Caches and editor state.
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+.env
+.env.*
+.vscode/
+.idea/
+
+# Training, inference, experiment, and private data folders.
+runs/
+logs/
+wandb/
+checkpoints/
+weights/
+models/
+networks/
+modules/
+datasets/
+data/
+configs/
+scripts/
+train/
+test/
+inference/
+experiments/
+outputs/
+results/raw/
+
+# Local source folders from the private implementation.
+phfd/
+tools/
+
+# Archives and packaged private materials.
+*.zip
+*.tar
+*.tar.gz
