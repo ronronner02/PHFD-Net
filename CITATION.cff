@@ -1,0 +1,6 @@
+cff-version: 1.2.0
+title: "PHFD-Net: A Locally Re-parameterized Hierarchical Spatial-Frequency Network for Single Image Dehazing"
+message: "If you use this work, please cite it. Bibliographic information will be updated after publication."
+authors:
+  - name: "PHFD-Net Authors"
+license: MIT
